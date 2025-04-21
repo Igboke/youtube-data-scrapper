@@ -44,7 +44,8 @@ Before using this tool, ensure you have the following:
 4. Follow the prompts to specify the type of data you want to scrape.
 
 ## Output
-The scraped data will be saved in the `output` folder in the format you choose (CSV, JSON, etc.).
+The scraped data will be saved in the `output` folder in the format you choose (XLSX etc.).
+More to come.
 
 ## Example
 Here’s an example of scraping video data for a specific keyword:
