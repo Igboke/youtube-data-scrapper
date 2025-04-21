@@ -26,8 +26,14 @@ uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPla
 response = youtube.playlistItems().list(
     part="snippet",
     playlistId=uploads_playlist_id,
-    maxResults=10
+    maxResults=50
 ).execute()
 
+# Print the video titles and IDs
 for item in response["items"]:
     print(item["snippet"]["title"])
+    print(item["snippet"]["resourceId"]["videoId"])
+    print(item["snippet"]["thumbnails"]["default"]["url"])
+    link = f"https://www.youtube.com/watch?v={item["snippet"]["resourceId"]["videoId"]}"
+    print(link)
+    print()
