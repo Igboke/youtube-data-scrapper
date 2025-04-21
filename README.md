@@ -64,7 +64,7 @@ This tool is intended for educational and research purposes only. Ensure you com
 
 ## Contact
 For questions or support, feel free to reach out:
-- Email: your-email@example.com
+- Email: danieligboke669@example.com
 - GitHub: [Igboke](https://github.com/Igboke)
 
 Happy scraping!
